@@ -186,7 +186,6 @@ nav .container button {
     width: 70%;
     padding: 60px 0 0 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap: 100px;
 }
@@ -321,7 +320,7 @@ nav .container button {
     width: 100%;
     position: absolute;
     left: -80px;
-    top: 150px;
+    top: -10%;
     z-index: -1;
 }
 
@@ -336,7 +335,7 @@ nav .container button {
     position: absolute;
     z-index: -2;
     right: 0;
-    top: 280px;
+    top: 250px;
 }
 
 .delivery h1 {
@@ -351,16 +350,15 @@ nav .container button {
 .delivery .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .delivery .container img {
-    width: 80%;
+    width: 70%;
     object-fit: contain;
 }
 
 .delivery .container .right {
-    width: 30%;
+    width: 500px;
     height: max-content;
     padding: 60px 40px;
     border: 1px solid #353535;
@@ -445,6 +443,8 @@ footer .container p {
 
     .info .container {
         justify-content: center;
+        flex-wrap: wrap;
+
         gap: 2rem;
     }
 
@@ -618,7 +618,8 @@ footer .container p {
     .delivery .container .right input {
         padding: 8px 5px;
     }
-    .delivery .container .right button{
+
+    .delivery .container .right button {
         padding: 5px 0;
     }
 
